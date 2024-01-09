@@ -237,7 +237,6 @@
             data.forEach(obj => {
                 let _date = new Date(Date.parse(obj.scrapdate));
                 const date = new Date(_date.getYear(), _date.getMonth(), _date.getDate());
-                console.log(date);
               if (!groupedByDate[date] || groupedByDate[date].school_rank < obj.global_rank) {
                 groupedByDate[date] = obj;
               }
@@ -246,7 +245,6 @@
             return Object.values(groupedByDate);
           }
         function populate_info(profile) {
-            console.log(profile);
             document.getElementById("intra-login").innerHTML = profile.intra.login;
             document.getElementById("intra-login").onclick = () => window.open("https://profile.intra.42.fr/users/" + profile.intra.login, "_blank");
             document.getElementById("intra-image").setAttribute("src", profile.intra.img);
@@ -271,8 +269,12 @@
             
             
             // filter histories with same date, keep ones with highest rank
-            
+            // filter history with stability less than 95
+            profile.history = profile.history.filter((item) => item.stability >= 100);
             profile.history = filterHighestRank(profile.history);
+            if (profile.history[profile.history.length - 1].pushdate != profile.final_rank.pushdate) {
+                profile.history.push(profile.final_rank);
+            }
             // reverse
             let _data = profile.history.map((item) => ({ "x": format_date(Date.parse(item.scrapdate)), "y": item.global_rank }));
             const _league_colors = {
@@ -284,9 +286,7 @@
             }
             document.getElementById("school-svg").setAttribute("fill", _league_colors[_league]);
             document.getElementById("globe-svg").setAttribute("fill", _league_colors[_league]);
-            
-            _data = _data.filter((item, index) => _data.findIndex((elem) => elem.x == item.x) == index);
-            
+
             new Chart(document.getElementById("history"), {
                 type: 'line',
                 data: {
@@ -322,8 +322,10 @@
                     }
                 }
             });
-            let _start_date = new Date(Date.parse(profile.push_per_day.first_push));
-            let _end_date = new Date(Date.parse(profile.push_per_day.last_push));
+            let _sdate = new Date(Date.parse(profile.push_per_day.first_push));
+            let _start_date = new Date(_sdate.getFullYear(), _sdate.getMonth(), _sdate.getDate());
+            let _edate = new Date(Date.parse(profile.push_per_day.last_push));
+            let _end_date = new Date(_edate.getFullYear(), _edate.getMonth(), _edate.getDate());
             let _push_data = [];
             let _push_labels = []; 
             for (let d = _start_date; d <= _end_date; d.setDate(d.getDate() + 1)) {
@@ -332,7 +334,6 @@
                 _push_data.push(_push);
                 _push_labels.push(_date);
             }
-            console.log(_push_data);
             new Chart(document.getElementById("pushcounts"), {
                 type: 'bar',
                 data: {
@@ -342,7 +343,6 @@
                         tension: 0.5,
                         backgroundColor: _league_colors[_league],
                         borderColor: _league_colors[_league],
-
                     }]
                 },
                 options: {
