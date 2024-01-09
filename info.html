@@ -228,6 +228,23 @@
             return (_day < 10 ? "0" : "") + _day + " / " + (_month < 10 ? "0" : "") + _month;
         }
 
+
+
+        function filterHighestRank(data) {
+            const groupedByDate = {};
+          
+            // Group objects by date (ignoring hours)
+            data.forEach(obj => {
+                let _date = new Date(Date.parse(obj.scrapdate));
+                const date = new Date(_date.getYear(), _date.getMonth(), _date.getDate());
+                console.log(date);
+              if (!groupedByDate[date] || groupedByDate[date].school_rank < obj.global_rank) {
+                groupedByDate[date] = obj;
+              }
+            });
+            // Return an array of objects with the highest rank for each unique date
+            return Object.values(groupedByDate);
+          }
         function populate_info(profile) {
             console.log(profile);
             document.getElementById("intra-login").innerHTML = profile.intra.login;
@@ -251,9 +268,12 @@
             document.getElementById("gold-date").innerHTML = profile.league_inception.GOLD?.pushdate.split(" ")[0].split("-").reverse().slice(0, 2).join(" / ") || "N/A";
             document.getElementById("silver-date").innerHTML = profile.league_inception.SILVER?.pushdate.split(" ")[0].split("-").reverse().slice(0, 2).join(" / ") || "N/A";
             document.getElementById("bronze-date").innerHTML = profile.league_inception.BRONZE?.pushdate.split(" ")[0].split("-").reverse().slice(0, 2).join(" / ") || "N/A";
-
-            // let _filtered_history = profile.history.filter((item) => item.stability >= 100);
-            // DD/MM/HH:MM
+            
+            
+            // filter histories with same date, keep ones with highest rank
+            
+            profile.history = filterHighestRank(profile.history);
+            // reverse
             let _data = profile.history.map((item) => ({ "x": format_date(Date.parse(item.scrapdate)), "y": item.global_rank }));
             const _league_colors = {
                 "legend": "#FF4A36A5",
@@ -264,8 +284,9 @@
             }
             document.getElementById("school-svg").setAttribute("fill", _league_colors[_league]);
             document.getElementById("globe-svg").setAttribute("fill", _league_colors[_league]);
+            
             _data = _data.filter((item, index) => _data.findIndex((elem) => elem.x == item.x) == index);
-            // filter data to remove duplicates, keep 
+            
             new Chart(document.getElementById("history"), {
                 type: 'line',
                 data: {
@@ -304,7 +325,7 @@
             let _start_date = new Date(Date.parse(profile.push_per_day.first_push));
             let _end_date = new Date(Date.parse(profile.push_per_day.last_push));
             let _push_data = [];
-            let _push_labels = [];
+            let _push_labels = []; 
             for (let d = _start_date; d <= _end_date; d.setDate(d.getDate() + 1)) {
                 let _date = format_date(d);
                 let _push = profile.push_per_day.pushes[_date] || 0;
