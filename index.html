@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <title>1337 Champions Wall of Fame</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/1337.png" alt="1337" width="50" height="50">
+      </a>
+    </div>
+  </nav>
+  <div class="container" style="min-height: 100vh;">
+    <div style="height: 600px;" class="text-center">
+      <h1 class="display-3 pt-5">
+        Codingame 2023 Fall Challenge
+      </h1>
+      <h5>
+        1337 Champions Wall of Fame
+      </h5>
+      <div style="width: 100%; height:350px;" class="d-flex gap-5 justify-content-center align-items-center">
+        <div id="leaderboard-5" class=" position-relative p-auto d-flex justify-content-center align-items-center"
+          style="width: 100px; height:100px;top:50px">
+          <p class="position-absolute display-5" style="top:-65px">5<sup style="font-size:12pt">th</sup></p>
+          <img src="imgs/1337.png" class="intra-image">
+          <img src="imgs/1337.png" class="mini-image">
+          <img src="imgs/legend.png" class="mini-image" style="left:0">
+          <p class="position-absolute" style="top:100px">Future...</p>
+          <p class="position-absolute" style="top:120px">Is Loading</p>
+          <!-- <p class="position-absolute" style="top:140px;font-size:20px">MED</p> -->
+
+        </div>
+        <div id="leaderboard-3" class=" position-relative p-auto d-flex justify-content-center align-items-center"
+          style="width: 100px; height:100px;top:0px">
+          <p class="position-absolute display-5" style="top:-65px">3<sup>rd</sup></p>
+          <img src="imgs/1337.png" class="intra-image">
+          <img src="imgs/1337.png" class="mini-image">
+          <img src="imgs/legend.png" class="mini-image" style="left:0">
+          <p class="position-absolute" style="top:100px">Future...</p>
+          <p class="position-absolute" style="top:120px">Is Loading</p>
+        </div>
+        <div id="leaderboard-1" class=" position-relative p-auto d-flex justify-content-center align-items-center"
+          style="width: 100px; height:100px;top:-50px">
+          <p class="position-absolute display-5" style="top:-65px">1<sup>st</sup></p>
+          <img src="imgs/1337.png" class="intra-image">
+          <img src="imgs/1337.png" class="mini-image">
+          <img src="imgs/legend.png" class="mini-image" style="left:0">
+          <p class="position-absolute" style="top:100px">Future...</p>
+          <p class="position-absolute" style="top:120px">Is Loading</p>
+        </div>
+        <div id="leaderboard-2" class=" position-relative p-auto d-flex justify-content-center align-items-center"
+          style="width: 100px; height:100px;top:0px">
+          <p class="position-absolute display-5" style="top:-65px">2<sup>nd</sup></p>
+          <img src="imgs/1337.png" class="intra-image">
+          <img src="imgs/1337.png" class="mini-image">
+          <img src="imgs/legend.png" class="mini-image" style="left:0">
+          <p class="position-absolute" style="top:100px">Future...</p>
+          <p class="position-absolute" style="top:120px">Is Loading</p>
+        </div>
+        <div id="leaderboard-4" class=" position-relative p-auto d-flex justify-content-center align-items-center"
+          style="width: 100px; height:100px;top:50px">
+          <p class="position-absolute display-5" style="top:-65px">4<sup>th</sup></p>
+          <img src="imgs/1337.png" class="intra-image">
+          <img src="imgs/1337.png" class="mini-image">
+          <img src="imgs/legend.png" class="mini-image" style="left:0">
+          <p class="position-absolute" style="top:100px">Future...</p>
+          <p class="position-absolute" style="top:120px">Is Loading</p>
+        </div>
+      </div>
+    </div>
+    <table id="leaderboard" class="table text-center" style="vertical-align: middle;">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col3" style="text-align: left !important;">Champion</th>
+          <th scope="col"></th>
+          <th scope="col">Global Rank</th>
+          <th scope="col" colspan="2">School Rank</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="position-relative" style="width: 0;">
+            <img src="imgs/1337.png" class="intra-image">
+            <img src="imgs/1337.png" class="mini-image">
+          </td>
+          <td style="text-align: left !important; ">
+            <h5 class="m-0">Future</h5>
+            <p class="m-0">is loading...</p>
+          </td>
+          <td>Legend</td>
+          <td >1</td>
+          <td >1</td>
+          <td>MED</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer class="footer mt-auto py-3 bg-body-tertiary bottom-0 w-100">
+    <div class="container text-center">
+      <span class="text-muted">Made with ❤️ by <a href="https://www.linkedin.com/in/zakaria-moumen"
+          class="text-decoration-none">Zakaria Moumen</a>
+      </span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+    function populate_table(data) {
+      console.log(data);
+      console.log(data.length);
+      let table = document.getElementById("leaderboard");
+      // remove current body
+      table.removeChild(table.getElementsByTagName("tbody")[0]);
+      let tbody = document.createElement("tbody");
+      for (let i = 0; i < 5; i++) {
+        let box = document.getElementById("leaderboard-" + (i + 1))
+        box.setAttribute("onclick", "window.location.href = 'info.html?login=" + data[i].intra.login + "'");
+        // append cursor pointer to styles
+        box.setAttribute("style", box.getAttribute("style") + ";cursor:pointer");
+        box.getElementsByClassName("intra-image")[0].setAttribute("src", data[i].intra.img);
+        box.getElementsByClassName("mini-image")[0].setAttribute("src", data[i].codingame.img);
+        box.getElementsByTagName("p")[1].innerHTML = data[i].intra.login;
+        box.getElementsByTagName("p")[2].innerHTML = data[i].codingame.pseudo;
+
+      }
+
+      for (let i = 5; i < data.length; i++) {
+        let user = data[i];
+        let row = document.createElement("tr");
+        let images = document.createElement("td");
+        let login = document.createElement("td");
+        let league = document.createElement("td");
+        let campuse = document.createElement("td");
+        let schoolrank = document.createElement("td");
+        let global_rank = document.createElement("td");
+
+        images.setAttribute("class", "position-relative");
+        images.setAttribute("style", "width: 0");
+        let intraimg = document.createElement("img");
+        intraimg.setAttribute("src", user.intra.img,);
+        intraimg.setAttribute("class", "intra-image");
+        images.appendChild(intraimg);
+        miniimage = document.createElement("img");
+        miniimage.setAttribute("src", user.codingame.img);
+        miniimage.setAttribute("class", "mini-image");
+        images.appendChild(miniimage);
+
+        let login_intra = document.createElement("h5");
+        login_intra.setAttribute("class", "m-0");
+        login_intra.innerHTML = user.intra.login;
+        let login_codingame = document.createElement("p");
+        login.setAttribute("style", "text-align: left !important;");
+        login_codingame.setAttribute("class", "m-0");
+        login_codingame.innerHTML = user.codingame.pseudo;
+        login.appendChild(login_intra);
+        login.appendChild(login_codingame);
+
+        league.innerHTML = user.final_rank.league;
+        campuse.innerHTML = user.intra.campus;
+        schoolrank.innerHTML = user.final_rank.school_rank;
+        global_rank.innerHTML = user.final_rank.global_rank;
+        row.appendChild(images);
+        row.appendChild(login);
+        row.appendChild(league);
+        // set row on click to redirect to profile
+        row.appendChild(global_rank);
+        row.appendChild(schoolrank);
+        row.appendChild(campuse);
+        row.setAttribute("onclick", "window.location.href = 'info.html?login=" + user.intra.login + "'");
+        tbody.appendChild(row);
+        table.appendChild(tbody);
+      }
+    }
+
+
+    function fetch_leaderboard() {
+      fetch("export.json")
+        .then(response => response.json())
+        .then(data => populate_table(data))
+        .catch(error => console.log(error));
+    }
+
+    fetch_leaderboard();
+  </script>
+</body>
+
+</html>

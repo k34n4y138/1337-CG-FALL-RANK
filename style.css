@@ -1,0 +1,70 @@
+/* 
+Legend: #F96249
+Gold: #F4AE3D
+Silver: #849AA4
+Bronze: #B6A28B
+Wood: #7CC576
+*/
+
+/* apply the following to sups under the class p */
+p sup {
+    font-size: 15px;
+    position: absolute;
+    top: 15px;
+}
+
+.intra-image
+{
+    object-fit: cover;
+    width: 75px; /* Adjust this to your desired size */
+    height: 75px; /* Same as width to maintain 1:1 ratio */
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+
+.mini-image{
+    object-fit: cover;
+    height: 30px;
+    border-radius:50px;
+    width:30px;
+    bottom:10%;
+    right:0;
+    position: absolute;
+}
+
+
+.card
+{
+    background-color: rgba(44, 58, 69, 0.203);
+}
+
+.legend-banner
+{
+    background-color: #FF4A3624;
+}
+
+.gold-banner
+{
+    background-color: #FB9E0024;
+}
+
+.silver-banner
+{
+    background-color: #7A919D24;
+}
+
+.bronze-banner
+{
+    background-color: #A68F7724;
+}
+
+.wood-banner
+{
+    background-color: #79BC6A24;
+}
+
+td {
+    cursor: pointer;
+}

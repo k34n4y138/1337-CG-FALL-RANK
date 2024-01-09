@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta author="Zakaria Moumen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>1337 Champions Wall of Fame</title>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="imgs/1337.png" width="50" height="50">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div style="width: 100%;height:80px" class="d-flex flex-row align-items-center">
+                <a href="/" class="ms-2 text-decoration-none text-white">
+                <svg fill="#dee2e6" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
+                    stroke-miterlimit="2" style="width: 30px;height: 30px;" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="m9.474 5.209s-4.501 4.505-6.254 6.259c-.147.146-.22.338-.22.53s.073.384.22.53c1.752 1.754 6.252 6.257 6.252 6.257.145.145.336.217.527.217.191-.001.383-.074.53-.221.293-.293.294-.766.004-1.057l-4.976-4.976h14.692c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-14.692l4.978-4.979c.289-.289.287-.761-.006-1.054-.147-.147-.339-.221-.53-.221-.191-.001-.38.071-.525.215z"
+                        fill-rule="nonzero" />
+                </svg>
+                </a>
+
+            <a href="/" class="ms-2 text-decoration-none text-white">
+                <p class="m-0 text-muted">Codingame 2023 Fall Challenge Leaderboard</p>
+            </a>
+        </div>
+        <div style="width:100%;height:200px" class="d-flex">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+                <div class="position-relative">
+                    <img id="intra-image" src="imgs/1337.png" class="intra-image">
+                    <img id="codingame-image" src="imgs/1337.png"  class="mini-image" style="bottom:0">
+                </div>
+                <div class="ms-2" style="cursor:pointer">
+                    <h1 id="intra-login" class=" m-0">Future...</h1>
+                    <h3 id="codingame-pseudo" class="">is loading</h3>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap gap-5 justify-content-center">
+            <div class="card" style="width: 350px;height:300px">
+                <div id="league-banner" class="d-flex align-items-center justify-content-center p-3 flex-row"
+                    style="width: 100%;height: 125px">
+                    <img id='league-logo' src="imgs/legend.png" height="80" width="80">
+                    <h3 id="league" class="m-0 mt-1">LEGEND</h3>
+                </div>
+                <div style="width: 100%" class="d-flex flex-column h-100 py-3 px-5">
+                    <div id="legend-date-line" class="w-100 h-100  d-flex">
+                        <img src="imgs/legend.png" height="25" width="25">
+                        <h5 class="ms-1 m-0 me-auto">LEGEND</h5>
+                        <p id="legend-date">N/A</p>
+                    </div>
+                    <div id="gold-date-line" class="w-100 h-100  d-flex">
+                        <img src="imgs/gold.png" height="25" width="25">
+                        <h5 class="ms-1 m-0 me-auto">GOLD</h5>
+                        <p id="gold-date">N/A</p>
+                    </div>
+                    <div id="silver-date-line" class="w-100 h-100  d-flex">
+                        <img src="imgs/silver.png" height="25" width="25">
+                        <h5 class="ms-1 m-0 me-auto">SILVER</h5>
+                        <p id="silver-date">N/A</p>
+                    </div>
+                    <div id="bronze-date-line" class="w-100 h-100 d-flex">
+                        <img src="imgs/bronze.png" height="25" width="25">
+                        <h5 class="ms-1 m-0 me-auto">BRONZE</h5>
+                        <p id="bronze-date">N/A</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card d-flex flex-column"
+                style="width: 350px;height:300px;background-color:rgba(44, 58, 69, 0.203)">
+                <div class="w-100 h-100 d-flex align-items-center justify-content-center">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="85" height="85"
+                        viewBox="0 0 240.000000 240.000000" preserveAspectRatio="xMidYMid meet">
+
+                        <g transform="translate(0.000000,240.000000) scale(0.100000,-0.100000)" fill="#000000"
+                            id="globe-svg" stroke="none">
+                            <path d="M1753 2328 l-71 -73 64 -69 c300 -321 338 -804 91 -1171 -141 -210
+                   -369 -357 -624 -406 -84 -16 -329 -6 -408 16 -137 38 -294 127 -401 227 l-60
+                   57 -73 -73 -73 -73 87 -76 c157 -135 322 -218 519 -261 l98 -21 -5 -47 c-8
+                   -62 -47 -137 -93 -178 -60 -52 -118 -73 -217 -78 l-87 -4 0 -49 0 -49 550 0
+                   550 0 0 49 0 49 -87 4 c-99 5 -157 26 -217 78 -47 41 -85 116 -93 181 -5 44
+                   -4 49 15 49 53 0 227 56 328 105 702 342 872 1247 342 1818 l-63 68 -72 -73z" />
+                            <path d="M895 2375 c-503 -95 -809 -608 -654 -1095 126 -394 531 -644 939
+                   -580 515 82 837 604 679 1100 -129 404 -548 654 -964 575z m340 -152 c86 -21
+                   91 -28 51 -69 -38 -39 -46 -42 -46 -14 0 12 -7 20 -17 20 -10 0 -27 3 -39 6
+                   -15 4 -33 -7 -71 -43 -48 -46 -58 -73 -27 -73 20 0 17 -39 -3 -47 -10 -4 -36
+                   -18 -58 -32 -33 -22 -39 -31 -37 -53 3 -26 1 -28 -36 -28 -37 0 -40 -2 -45
+                   -32 -3 -18 -1 -37 3 -42 13 -13 80 3 80 19 0 8 4 15 10 15 5 0 17 8 27 19 30
+                   31 69 32 103 1 30 -27 39 -50 20 -50 -5 0 -10 -5 -10 -11 0 -8 5 -8 15 1 21
+                   17 19 40 -7 67 -13 14 -17 23 -8 23 7 0 28 -16 47 -36 33 -35 34 -36 53 -19
+                   11 10 21 16 23 14 1 -2 7 -13 13 -24 9 -15 22 -20 55 -21 48 -1 59 -16 39 -53
+                   -8 -16 -21 -21 -51 -21 -22 0 -50 5 -61 11 -18 10 -24 8 -39 -12 l-18 -24 -45
+                   25 c-28 15 -46 32 -46 43 0 27 -24 31 -113 19 -76 -11 -84 -14 -117 -50 -19
+                   -22 -42 -42 -51 -45 -9 -3 -29 -21 -43 -40 -24 -31 -26 -40 -23 -123 3 -115
+                   22 -146 105 -170 44 -13 62 -14 87 -5 42 15 60 14 75 -4 7 -9 19 -14 25 -11
+                   21 8 34 -15 28 -46 -4 -21 0 -35 15 -51 35 -38 45 -79 27 -113 -19 -37 -19
+                   -43 3 -68 10 -12 24 -39 30 -61 19 -68 30 -76 87 -69 44 6 56 14 108 67 31 33
+                   57 65 57 72 0 6 16 25 35 42 34 31 35 32 29 90 -6 57 -5 59 49 146 54 85 84
+                   153 74 163 -3 3 -19 -2 -36 -11 -22 -11 -37 -13 -49 -6 -27 14 -68 62 -87 101
+                   -10 19 -28 50 -42 68 -13 17 -19 32 -14 32 14 0 80 -71 81 -86 0 -6 9 -19 19
+                   -28 11 -10 22 -28 25 -42 4 -14 14 -24 24 -24 19 0 92 71 111 107 26 52 3 86
+                   -44 65 -21 -10 -27 -7 -50 19 -30 36 -23 60 9 31 22 -20 62 -22 138 -7 47 9
+                   53 -3 69 -123 37 -292 -120 -582 -386 -713 -94 -46 -170 -67 -274 -75 -180
+                   -13 -389 62 -521 188 -56 53 -63 82 -25 100 23 10 25 15 19 54 -4 30 -1 49 10
+                   67 23 34 9 66 -53 125 -27 26 -53 60 -56 74 -4 15 -22 49 -41 75 -19 27 -34
+                   60 -34 75 0 16 -9 37 -20 48 -18 18 -18 22 -4 77 32 127 140 301 197 319 12 3
+                   31 14 42 24 11 10 33 20 49 22 24 2 34 12 50 45 21 42 52 62 149 93 56 18 56
+                   5 -1 -30 -44 -27 -70 -56 -59 -66 2 -2 25 8 52 21 28 15 66 25 90 25 40 0 122
+                   41 140 70 8 13 66 7 160 -17z m-34 -150 c20 5 20 5 0 -26 -15 -25 -28 -33 -56
+                   -35 -25 -2 -35 1 -35 11 0 10 7 13 20 10 15 -4 20 0 20 13 0 9 6 33 13 53 l12
+                   35 3 -33 c3 -27 7 -32 23 -28z m190 -173 c6 0 9 -5 7 -11 -2 -7 -31 -13 -66
+                   -14 -60 -2 -62 -2 -56 19 9 31 23 43 33 28 6 -10 10 -10 20 2 11 13 15 12 32
+                   -5 10 -10 24 -19 30 -19z" />
+                            <path d="M985 2048 c-10 -33 -11 -78 -1 -78 28 1 36 16 25 53 -10 39 -17 45
+                   -24 25z" />
+                            <path d="M940 2005 c-10 -12 -10 -15 3 -15 8 0 17 7 21 15 3 8 2 15 -3 15 -5
+                   0 -14 -7 -21 -15z" />
+                        </g>
+                    </svg>
+
+                    <h1 id="global-rank" class="m-0 display-1 ms-2">1<sup>st</sup></h1>
+
+                </div>
+                <div class="w-100 h-75 d-flex align-items-center justify-content-center">
+                    <svg width="75" height="75" viewBox="0 0 250.000000 250.000000" preserveAspectRatio="xMidYMid meet">
+                        <g transform="translate(0.000000,250.000000) scale(0.100000,-0.100000)" id="school-svg"
+                            fill="#000000" stroke="none">
+                            <path d="M1150 2300 l0 -150 -200 0 -200 0 0 -150 0 -150 -150 0 -150 0 0
+-100 0 -100 -150 0 -150 0 0 -700 0 -700 -50 0 -50 0 0 -100 0 -100 1200 0
+1200 0 0 100 0 100 -50 0 -50 0 0 700 0 700 -150 0 -150 0 0 100 0 100 -150 0
+-150 0 0 150 0 150 -250 0 -250 0 0 50 0 50 150 0 150 0 0 100 0 100 -200 0
+-200 0 0 -150z m-130 -694 c0 -36 5 -68 10 -71 20 -12 9 -25 -20 -25 -16 0
+-30 5 -30 10 0 6 5 10 10 10 6 0 10 27 10 60 0 45 -4 60 -14 60 -8 0 -16 -6
+-19 -12 -2 -7 -8 -10 -12 -6 -16 15 5 38 35 38 l30 0 0 -64z m195 -16 l0 -75
+-42 -3 c-50 -4 -59 15 -10 20 24 2 33 8 35 26 3 19 -1 22 -32 22 -20 0 -36 5
+-36 10 0 6 16 10 36 10 31 0 35 3 32 23 -2 17 -11 23 -35 25 -49 5 -40 24 10
+20 l42 -3 0 -75z m165 0 l0 -80 -45 0 c-25 0 -45 5 -45 10 0 6 16 10 35 10 31
+0 35 3 35 25 0 21 -5 25 -29 25 -17 0 -33 5 -36 10 -4 6 8 10 29 10 32 0 36 3
+36 25 0 22 -4 25 -35 25 -19 0 -35 5 -35 10 0 6 20 10 45 10 l45 0 0 -80z
+m168 11 c4 -91 -11 -113 -18 -26 -5 67 -6 70 -32 73 -20 2 -28 -1 -28 -12 0
+-8 -4 -18 -10 -21 -6 -4 -10 7 -10 25 0 31 0 31 48 28 l47 -3 3 -64z m-998
+-251 l0 -100 -100 0 -100 0 0 100 0 100 100 0 100 0 0 -100z m1600 0 l0 -100
+-100 0 -100 0 0 100 0 100 100 0 100 0 0 -100z m-1600 -400 l0 -100 -100 0
+-100 0 0 100 0 100 100 0 100 0 0 -100z m1600 0 l0 -100 -100 0 -100 0 0 100
+0 100 100 0 100 0 0 -100z m-700 -84 l195 -113 3 -302 2 -301 -100 0 -100 0 0
+250 0 250 -100 50 -100 50 -100 -50 -100 -50 0 -250 0 -250 -100 0 -100 0 2
+301 3 302 195 113 c107 63 197 114 200 114 3 0 93 -51 200 -114z m-900 -316
+l0 -100 -100 0 -100 0 0 100 0 100 100 0 100 0 0 -100z m1600 0 l0 -100 -100
+0 -100 0 0 100 0 100 100 0 100 0 0 -100z" />
+                        </g>
+                    </svg>
+                    <h3 id="school-rank" class="m-0 display-4 mt-3 ms-3">1<sup>st</sup></h3>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5 d-flex flex-wrap gap-5 justify-content-center">
+            <div class="card" style="width: 350px;height:300px">
+                <canvas id="history" style="height: 100%;width:100%;margin:10px"></canvas>
+            </div>
+
+            <div class="card" style="width: 350px;height:300px">
+                <canvas id="pushcounts" style="height: 100%;width:100%;margin:10px"></canvas>
+
+            </div>
+            <footer class="footer mt-auto py-3 bg-body-tertiary position-absolute bottom-0 w-100">
+                <div class="container text-center">
+                    <span class="text-muted">Made with ❤️ by <a href="https://www.linkedin.com/in/zakaria-moumen"
+                            class="text-decoration-none">Zakaria Moumen</a>
+                    </span>
+                </div>
+            </footer>
+        </div>
+        <script>
+
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+
+
+            function get_rank_suffix(number) {
+                if (number % 100 >= 11 && number % 100 <= 13) {
+                    return "th";
+                } else {
+                    switch (number % 10) {
+                        case 1:
+                            return "st";
+                        case 2:
+                            return "nd";
+                        case 3:
+                            return "rd";
+                        default:
+                            return "th";
+                    }
+                }
+
+            }
+            function format_date(date) {
+                let _date = new Date(date);
+                let _day = _date.getDate();
+                let _month = _date.getMonth() + 1;
+                let _year = _date.getFullYear();
+                // DD/MM HH[am/pm]MM
+                // prepend 0 if needed
+                return (_day < 10 ? "0" : "") + _day + " / " + (_month < 10 ? "0" : "") + _month;
+            }
+
+            function populate_info(profile) {
+                console.log(profile);
+                document.getElementById("intra-login").innerHTML = profile.intra.login;
+                document.getElementById("intra-login").onclick = () => window.open("https://profile.intra.42.fr/users/" + profile.intra.login, "_blank");
+                document.getElementById("intra-image").setAttribute("src", profile.intra.img);
+                document.getElementById("codingame-pseudo").innerHTML = profile.codingame.pseudo;
+                document.getElementById("codingame-pseudo").onclick = () => window.open("https://www.codingame.com/profile/" + profile.codingame.uuid, "_blank");
+                document.getElementById("codingame-image").setAttribute("src", profile.codingame.img);
+                document.getElementById("league").innerHTML = profile.final_rank.league;
+                document.getElementById("global-rank").innerHTML = profile.final_rank.global_rank;
+                document.getElementById("global-rank").appendChild(document.createElement("sup")).innerHTML = get_rank_suffix(profile.final_rank.global_rank);
+                document.getElementById("school-rank").innerHTML = profile.final_rank.school_rank;
+                document.getElementById("school-rank").appendChild(document.createElement("sup")).innerHTML = get_rank_suffix(profile.final_rank.school_rank);
+                let _league = profile.final_rank.league.split(" ")[0].toLowerCase();
+                document.getElementById("league-logo").setAttribute("src", "imgs/" + _league + ".png");
+                // append class to league banner
+                document.getElementById("league-banner").classList.add(_league + "-banner");
+                // date must be DD/MM
+                document.getElementById("legend-date").innerHTML = profile.league_inception.LEGEND?.pushdate.split(" ")[0].split("-").reverse().slice(0, 2).join(" / ") || "N/A";
+                document.getElementById("gold-date").innerHTML = profile.league_inception.GOLD?.pushdate.split(" ")[0].split("-").reverse().slice(0, 2).join(" / ") || "N/A";
+                document.getElementById("silver-date").innerHTML = profile.league_inception.SILVER?.pushdate.split(" ")[0].split("-").reverse().slice(0, 2).join(" / ") || "N/A";
+                document.getElementById("bronze-date").innerHTML = profile.league_inception.BRONZE?.pushdate.split(" ")[0].split("-").reverse().slice(0, 2).join(" / ") || "N/A";
+
+                // let _filtered_history = profile.history.filter((item) => item.stability >= 100);
+                // DD/MM/HH:MM
+                let _data = profile.history.map((item) => ({ "x": format_date(Date.parse(item.scrapdate)), "y": item.global_rank }));
+                const _league_colors = {
+                    "legend": "#FF4A36A5",
+                    "gold": "#FB9E00A5",
+                    "silver": "#7A919DA5",
+                    "bronze": "#A68F77A5",
+                    "wood": "#79BC6AA5",
+                }
+                document.getElementById("school-svg").setAttribute("fill", _league_colors[_league]);
+                document.getElementById("globe-svg").setAttribute("fill", _league_colors[_league]);
+                _data = _data.filter((item, index) => _data.findIndex((elem) => elem.x == item.x) == index);
+                new Chart(document.getElementById("history"), {
+                    type: 'line',
+                    data: {
+                        datasets: [{
+                            data: _data,
+                            tension: 0.5,
+                            backgroundColor: _league_colors[_league],
+                            borderColor: _league_colors[_league],
+
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                reverse: true,
+                                min: 1,
+                            }
+                        },
+                        elements: {
+                            point: {
+                                radius: 0
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: "Rank History"
+                            }
+                        }
+                    }
+                });
+                let _start_date = new Date(Date.parse(profile.push_per_day.first_push));
+                let _end_date = new Date(Date.parse(profile.push_per_day.last_push));
+                let _push_data = [];
+                let _push_labels = [];
+                for (let d = _start_date; d <= _end_date; d.setDate(d.getDate() + 1)) {
+                    let _date = format_date(d);
+                    let _push = profile.push_per_day.pushes[_date] || 0;
+                    _push_data.push(_push);
+                    _push_labels.push(_date);
+                }
+                console.log(_push_data);
+                new Chart(document.getElementById("pushcounts"), {
+                    type: 'bar',
+                    data: {
+                        labels: _push_labels,
+                        datasets: [{
+                            data: profile.push_per_day.pushes,
+                            tension: 0.5,
+                            backgroundColor: _league_colors[_league],
+                            borderColor: _league_colors[_league],
+
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                min: 0,
+                                max: 2,
+                                ticks: {
+                                    stepSize: 1,
+                                    display: false
+                                }
+                            },
+                        },
+                        elements: {
+                            point: {
+                                radius: 0
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: "Arena Submissions"
+                            }
+                        }
+                    }
+                });
+            }
+
+            function fetch_leaderboard() {
+                fetch("export.json")
+                    .then(response => response.json())
+                    .then(data => {
+                        // grep login from query string
+                        let url = new URL(window.location.href);
+                        let login = url.searchParams.get("login");
+                        let target = data.find(user => user.intra.login == login);
+                        if (target == undefined) // redirect if not found
+                            window.location.replace("index.html");
+                        else
+                            populate_info(target);
+                    })
+                    .catch(error => console.log(error));
+
+            }
+            fetch_leaderboard();
+        </script>
+</body>
+
+</html>
