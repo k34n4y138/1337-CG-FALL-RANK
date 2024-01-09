@@ -38,7 +38,7 @@
           <img src="imgs/legend.png" class="mini-image" style="left:0">
           <p class="position-absolute" style="top:100px">Future...</p>
           <p class="position-absolute" style="top:120px">Is Loading</p>
-          <!-- <p class="position-absolute" style="top:140px;font-size:20px">MED</p> -->
+          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
 
         </div>
         <div id="leaderboard-3" class=" position-relative p-auto d-flex justify-content-center align-items-center"
@@ -49,6 +49,8 @@
           <img src="imgs/legend.png" class="mini-image" style="left:0">
           <p class="position-absolute" style="top:100px">Future...</p>
           <p class="position-absolute" style="top:120px">Is Loading</p>
+          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
+
         </div>
         <div id="leaderboard-1" class=" position-relative p-auto d-flex justify-content-center align-items-center"
           style="width: 100px; height:100px;top:-50px">
@@ -58,6 +60,8 @@
           <img src="imgs/legend.png" class="mini-image" style="left:0">
           <p class="position-absolute" style="top:100px">Future...</p>
           <p class="position-absolute" style="top:120px">Is Loading</p>
+          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
+
         </div>
         <div id="leaderboard-2" class=" position-relative p-auto d-flex justify-content-center align-items-center"
           style="width: 100px; height:100px;top:0px">
@@ -67,6 +71,7 @@
           <img src="imgs/legend.png" class="mini-image" style="left:0">
           <p class="position-absolute" style="top:100px">Future...</p>
           <p class="position-absolute" style="top:120px">Is Loading</p>
+          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
         </div>
         <div id="leaderboard-4" class=" position-relative p-auto d-flex justify-content-center align-items-center"
           style="width: 100px; height:100px;top:50px">
@@ -76,6 +81,8 @@
           <img src="imgs/legend.png" class="mini-image" style="left:0">
           <p class="position-absolute" style="top:100px">Future...</p>
           <p class="position-absolute" style="top:120px">Is Loading</p>
+          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
+
         </div>
       </div>
     </div>
@@ -131,8 +138,10 @@
         box.setAttribute("style", box.getAttribute("style") + ";cursor:pointer");
         box.getElementsByClassName("intra-image")[0].setAttribute("src", data[i].intra.img);
         box.getElementsByClassName("mini-image")[0].setAttribute("src", data[i].codingame.img);
+        box.getElementsByClassName("mini-image")[1].setAttribute("src", "imgs/" + data[i].final_rank.league.split(" ")[0].toLowerCase() + ".png");
         box.getElementsByTagName("p")[1].innerHTML = data[i].intra.login;
         box.getElementsByTagName("p")[2].innerHTML = data[i].codingame.pseudo;
+        box.getElementsByTagName("p")[3].innerHTML = data[i].intra.campus;
 
       }
 
