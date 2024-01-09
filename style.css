@@ -88,5 +88,9 @@ td {
     .black-screen-of-bad-UX
     {
         display: flex;
-    }    
+    }
+    .container
+    {
+        display: none !important;
+    }
 }
