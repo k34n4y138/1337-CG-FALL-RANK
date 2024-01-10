@@ -245,8 +245,6 @@
             return (_day < 10 ? "0" : "") + _day + " / " + (_month < 10 ? "0" : "") + _month;
         }
 
-
-
         function filterHighestRank(data) {
             const groupedByDate = {};
           
@@ -293,7 +291,7 @@
                 profile.history.push(profile.final_rank);
             }
             // reverse
-            let _data = profile.history.map((item) => ({ "x": format_date(Date.parse(item.scrapdate)), "y": item.global_rank }));
+            let _data = profile.history.map((item) => ({ "x": format_date(Date.parse(item.scrapdate)), "y": item.global_rank, "z": item.league.split(" ")[0].toLowerCase()}));
             const _league_colors = {
                 "legend": "#FF4A36A5",
                 "gold": "#FB9E00A5",
@@ -303,7 +301,6 @@
             }
             document.getElementById("school-svg").setAttribute("fill", _league_colors[_league]);
             document.getElementById("globe-svg").setAttribute("fill", _league_colors[_league]);
-
             new Chart(document.getElementById("history"), {
                 type: 'line',
                 data: {
@@ -312,7 +309,9 @@
                         tension: 0.5,
                         backgroundColor: _league_colors[_league],
                         borderColor: _league_colors[_league],
-
+                        segment : {
+                            borderColor: ctx => _league_colors[ctx.p0.raw.z]
+                        },
                     }]
                 },
                 options: {
@@ -391,7 +390,6 @@
                 }
             });
         }
-
         function fetch_leaderboard() {
             fetch("export.json")
                 .then(response => response.json())
