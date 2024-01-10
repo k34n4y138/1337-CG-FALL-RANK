@@ -84,13 +84,33 @@ td {
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 500px){
+    .intra-image
+    {
+        width: 50px; /* Adjust this to your desired size */
+        height: 50px; /* Same as width to maintain 1:1 ratio */
+    }
+    .mini-image{
+        height: 20px;
+        width:20px;
+    }
+    .table > :not(caption) > * > * {
+        padding: .25rem .25rem;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 359px)
+{
     .black-screen-of-bad-UX
     {
         display: flex;
     }
-    .container
-    {
-        display: none !important;
+    .container-xl {
+        display: none;
+    }
+    .container-md {
+        display: none;
     }
 }

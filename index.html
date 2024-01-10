@@ -21,14 +21,14 @@
       </a>
     </div>
   </nav>
-  <div class="black-screen-of-bad-UX">
+  <div class="black-screen-of-bad-UX flex-column">
+    <img src="imgs/flip_phone.gif" width="80" height="80">
     <p class="text-center px-4">
       Too much to give.<br>
-    Find a bigger screen to have a full experience<br>
-    (preferably your laptop).
+      Find a bigger screen to get a full experience<br>
     </p>
   </div>
-  <div class="container" style="min-height: 100vh;">
+  <div class="container-xl" style="min-height: 100vh;">
     <div style="height: 600px;" class="text-center">
       <h1 class="display-3 pt-5">
         Codingame 2023 Fall Challenge
@@ -36,90 +36,99 @@
       <h5>
         1337 Champions Wall of Fame
       </h5>
-      <div style="width: 100%; height:350px;" class="d-flex gap-5 justify-content-center align-items-center">
-        <div id="leaderboard-5" class=" position-relative p-auto d-flex justify-content-center align-items-center"
-          style="width: 100px; height:100px;top:50px">
-          <p class="position-absolute display-5" style="top:-65px">5<sup style="font-size:12pt">th</sup></p>
-          <img src="imgs/1337.png" class="intra-image">
-          <img src="imgs/1337.png" class="mini-image">
-          <img src="imgs/legend.png" class="mini-image" style="left:0">
-          <p class="position-absolute" style="top:100px">Future...</p>
-          <p class="position-absolute" style="top:120px">Is Loading</p>
-          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
-
+      <div style="width: 100%; height:350px;"
+        class="d-flex flex-row gap-2 gap-sm-5 justify-content-center align-items-center">
+        <div id="leaderboard-5" class="position-relative d-flex flex-column justify-content-center align-items-center"
+          style="top:50px">
+          <p class="display-5" >5<sup style="font-size:12pt">th</sup></p>
+          <div class="position-relative">
+            <img src="imgs/1337.png" class="intra-image">
+            <img src="imgs/1337.png" class="mini-image" style="right:-10%;bottom:0">
+            <img src="imgs/legend.png" class="mini-image" style="left:-10%;bottom:0">
+          </div>
+          <p class="m-0">Future...</p>
+          <p class="m-0">Is Loading</p>
+          <p class="text-muted m-0">MED</p>
         </div>
-        <div id="leaderboard-3" class=" position-relative p-auto d-flex justify-content-center align-items-center"
-          style="width: 100px; height:100px;top:0px">
-          <p class="position-absolute display-5" style="top:-65px">3<sup>rd</sup></p>
+        <div id="leaderboard-3" class="position-relative d-flex flex-column justify-content-center align-items-center"
+        style="top:0px">
+        <p class=" display-5">3<sup style="font-size:12pt">rd</sup></p>
+        <div class="position-relative">
           <img src="imgs/1337.png" class="intra-image">
-          <img src="imgs/1337.png" class="mini-image">
-          <img src="imgs/legend.png" class="mini-image" style="left:0">
-          <p class="position-absolute" style="top:100px">Future...</p>
-          <p class="position-absolute" style="top:120px">Is Loading</p>
-          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
-
+          <img src="imgs/1337.png" class="mini-image" style="right:-10%;bottom:0">
+          <img src="imgs/legend.png" class="mini-image" style="left:-10%;bottom:0">
         </div>
-        <div id="leaderboard-1" class=" position-relative p-auto d-flex justify-content-center align-items-center"
-          style="width: 100px; height:100px;top:-50px">
-          <p class="position-absolute display-5" style="top:-65px">1<sup>st</sup></p>
-          <img src="imgs/1337.png" class="intra-image">
-          <img src="imgs/1337.png" class="mini-image">
-          <img src="imgs/legend.png" class="mini-image" style="left:0">
-          <p class="position-absolute" style="top:100px">Future...</p>
-          <p class="position-absolute" style="top:120px">Is Loading</p>
-          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
-
+        <p class="m-0">Future...</p>
+        <p class="m-0">Is Loading</p>
+        <p class="text-muted m-0">MED</p>
+      </div>
+      <div id="leaderboard-1" class="position-relative d-flex flex-column justify-content-center align-items-center"
+          style="top:-50px">
+          <p class="display-5" >1<sup style="font-size:12pt">st</sup></p>
+          <div class="position-relative">
+            <img src="imgs/1337.png" class="intra-image">
+            <img src="imgs/1337.png" class="mini-image" style="right:-10%;bottom:0">
+            <img src="imgs/legend.png" class="mini-image" style="left:-10%;bottom:0">
+          </div>
+          <p class="m-0">Future...</p>
+          <p class="m-0">Is Loading</p>
+          <p class="text-muted m-0">MED</p>
         </div>
-        <div id="leaderboard-2" class=" position-relative p-auto d-flex justify-content-center align-items-center"
-          style="width: 100px; height:100px;top:0px">
-          <p class="position-absolute display-5" style="top:-65px">2<sup>nd</sup></p>
-          <img src="imgs/1337.png" class="intra-image">
-          <img src="imgs/1337.png" class="mini-image">
-          <img src="imgs/legend.png" class="mini-image" style="left:0">
-          <p class="position-absolute" style="top:100px">Future...</p>
-          <p class="position-absolute" style="top:120px">Is Loading</p>
-          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
+        <div id="leaderboard-2" class="position-relative d-flex flex-column justify-content-center align-items-center"
+          style="top:0px">
+          <p class="display-5" >2<sup style="font-size:12pt">nd</sup></p>
+          <div class="position-relative">
+            <img src="imgs/1337.png" class="intra-image">
+            <img src="imgs/1337.png" class="mini-image" style="right:-10%;bottom:0">
+            <img src="imgs/legend.png" class="mini-image" style="left:-10%;bottom:0">
+          </div>
+          <p class="m-0">Future...</p>
+          <p class="m-0">Is Loading</p>
+          <p class="text-muted m-0">MED</p>
         </div>
-        <div id="leaderboard-4" class=" position-relative p-auto d-flex justify-content-center align-items-center"
-          style="width: 100px; height:100px;top:50px">
-          <p class="position-absolute display-5" style="top:-65px">4<sup>th</sup></p>
-          <img src="imgs/1337.png" class="intra-image">
-          <img src="imgs/1337.png" class="mini-image">
-          <img src="imgs/legend.png" class="mini-image" style="left:0">
-          <p class="position-absolute" style="top:100px">Future...</p>
-          <p class="position-absolute" style="top:120px">Is Loading</p>
-          <p class="position-absolute text-muted" style="top:145px;font-size:10px">MED</p>
-
+        <div id="leaderboard-4" class="position-relative d-flex flex-column justify-content-center align-items-center"
+          style="top:50px">
+          <p class="display-5">4<sup style="font-size:12pt">th</sup></p>
+          <div class="position-relative">
+            <img src="imgs/1337.png" class="intra-image">
+            <img src="imgs/1337.png" class="mini-image" style="right:-10%;bottom:0">
+            <img src="imgs/legend.png" class="mini-image" style="left:-10%;bottom:0">
+          </div>
+          <p class="m-0">Future...</p>
+          <p class="m-0">Is Loading</p>
+          <p class="text-muted m-0">MED</p>
         </div>
       </div>
     </div>
-    <table id="leaderboard" class="table text-center" style="vertical-align: middle;">
-      <thead>
-        <tr>
-          <th scope="col"></th>
-          <th scope="col3" style="text-align: left !important;">Champion</th>
-          <th scope="col"></th>
-          <th scope="col">Global Rank</th>
-          <th scope="col" colspan="2">School Rank</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="position-relative" style="width: 0;">
-            <img src="imgs/1337.png" class="intra-image">
-            <img src="imgs/1337.png" class="mini-image">
-          </td>
-          <td style="text-align: left !important; ">
-            <h5 class="m-0">Future</h5>
-            <p class="m-0">is loading...</p>
-          </td>
-          <td>Legend</td>
-          <td >1</td>
-          <td >1</td>
-          <td>MED</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="d-block">
+      <table id="leaderboard" class="table text-center" style="vertical-align: middle;">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col3" style="text-align: left !important;">Champion</th>
+            <th scope="col"></th>
+            <th scope="col">Global Rank</th>
+            <th scope="col" colspan="2">School Rank</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="position-relative" style="width: 0;">
+              <img src="imgs/1337.png" class="intra-image">
+              <img src="imgs/1337.png" class="mini-image">
+            </td>
+            <td style="text-align: left !important; ">
+              <h5 class="m-0">Future</h5>
+              <p class="m-0">is loading...</p>
+            </td>
+            <td>Legend</td>
+            <td>1</td>
+            <td>1</td>
+            <td>MED</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
   <footer class="footer mt-auto py-3 bg-body-tertiary bottom-0 w-100">
     <div class="container text-center">
@@ -132,8 +141,6 @@
   <script>
 
     function populate_table(data) {
-      console.log(data);
-      console.log(data.length);
       let table = document.getElementById("leaderboard");
       // remove current body
       table.removeChild(table.getElementsByTagName("tbody")[0]);
@@ -166,14 +173,14 @@
         images.setAttribute("style", "width: 0");
         let intraimg = document.createElement("img");
         intraimg.setAttribute("src", user.intra.img,);
-        intraimg.setAttribute("class", "intra-image");
+        intraimg.setAttribute("class", "intra-image table-image");
         images.appendChild(intraimg);
         miniimage = document.createElement("img");
         miniimage.setAttribute("src", user.codingame.img);
-        miniimage.setAttribute("class", "mini-image");
+        miniimage.setAttribute("class", "mini-image table-image");
         images.appendChild(miniimage);
 
-        let login_intra = document.createElement("h5");
+        let login_intra = document.createElement("h6");
         login_intra.setAttribute("class", "m-0");
         login_intra.innerHTML = user.intra.login;
         let login_codingame = document.createElement("p");
@@ -183,17 +190,21 @@
         login.appendChild(login_intra);
         login.appendChild(login_codingame);
 
-        league.innerHTML = user.final_rank.league;
+        let _league_img = document.createElement("img");
+        _league_img.setAttribute("style", "width: 30px;");
+        _league_img.setAttribute("src", "imgs/" + user.final_rank.league.split(" ")[0].toLowerCase() + ".png");
+        league.appendChild(_league_img);
+        league.setAttribute("style", "border: none;width: 0;");
         campuse.innerHTML = user.intra.campus;
         schoolrank.innerHTML = user.final_rank.school_rank;
         global_rank.innerHTML = user.final_rank.global_rank;
+        row.appendChild(league);
         row.appendChild(images);
         row.appendChild(login);
-        row.appendChild(league);
         // set row on click to redirect to profile
         row.appendChild(global_rank);
-        row.appendChild(schoolrank);
         row.appendChild(campuse);
+        row.appendChild(schoolrank);
         row.setAttribute("onclick", "window.location.href = 'info.html?login=" + user.intra.login + "'");
         tbody.appendChild(row);
         table.appendChild(tbody);

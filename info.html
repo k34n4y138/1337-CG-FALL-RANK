@@ -16,11 +16,11 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <div class="black-screen-of-bad-UX">
+    <div class="black-screen-of-bad-UX flex-column">
+        <img src="imgs/flip_phone.gif" width="80" height="80">
         <p class="text-center px-4">
           Too much to give.<br>
-        Find a bigger screen to have a full experience <br>
-        (preferably your laptop).
+          Find a bigger screen to get a full experience<br>
         </p>
       </div>
     <nav class="navbar bg-body-tertiary">
@@ -30,7 +30,7 @@
             </a>
         </div>
     </nav>
-    <div class="container position-relative">
+    <div class="container-lg position-relative">
         <div style="width: 100%;height:65px" class="d-flex flex-row align-items-center mb-1">
             <a href="./index.html" class="ms-2 text-decoration-none text-white">
                 <svg fill="#dee2e6" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
@@ -58,7 +58,7 @@
             </div>
         </div>
         <div>
-            <div class="d-flex flex-wrap gap-5 justify-content-center h-100">
+            <div class="d-flex flex-wrap gap-3 justify-content-center h-100">
                 <div class="card" style="width: 350px;height:300px">
                     <div id="league-banner" class="d-flex align-items-center justify-content-center p-3 flex-row"
                         style="width: 100%;height: 90px">
@@ -192,13 +192,13 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-5 d-flex flex-wrap gap-5 justify-content-center">
-                <div class="card" style="width: 350px;height:300px">
-                    <canvas id="history" style="height: 100%;width:100%;margin:10px"></canvas>
+            <div class="mt-3 mb-3 d-flex flex-wrap gap-3 justify-content-center">
+                <div class="card p-2" style="width: 350px;height:300px">
+                    <canvas id="history" style="height: 90%;width:90%"></canvas>
                 </div>
 
-                <div class="card" style="width: 350px;height:300px">
-                    <canvas id="pushcounts" style="height: 100%;width:100%;margin:10px"></canvas>
+                <div class="card p-2" style="width: 350px;height:300px">
+                    <canvas id="pushcounts" style="height: 90%;width:90%"></canvas>
 
                 </div>
             </div>
@@ -289,7 +289,7 @@
             // filter history with stability less than 95
             profile.history = profile.history.filter((item) => item.stability >= 100);
             profile.history = filterHighestRank(profile.history);
-            if (profile.history[profile.history.length - 1].pushdate != profile.final_rank.pushdate) {
+            if (profile.history[profile.history.length - 1]?.pushdate != profile.final_rank.pushdate) {
                 profile.history.push(profile.final_rank);
             }
             // reverse
