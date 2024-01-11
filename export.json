@@ -18930,7 +18930,7 @@
         "codingame": {
             "uuid": "394ab76bd2cc1a8289d4e1cad97ee6d67181735",
             "pseudo": "rrhnizar",
-            "img": "https://static.codingame.com/servlet/fileservlet?id=100754029761146&format=profile_avatar",
+            "img": "https://static.codingame.com/servlet/fileservlet?id=117498364018993&format=profile_avatar",
             "link": "https://www.codingame.com/profile/394ab76bd2cc1a8289d4e1cad97ee6d67181735"
         },
         "history": [
@@ -49769,6 +49769,786 @@
         }
     },
     {
+        "db_id": 71,
+        "scraptime": "2023-12-27 16:04:33.797140",
+        "intra": {
+            "login": "rghouzra",
+            "img": "https://cdn.intra.42.fr/users/fe0d1eb4309a109d6c78471fe626edb5/rghouzra.jpg",
+            "link": "https://profile.intra.42.fr/users/rghouzra",
+            "campus": "KH\n"
+        },
+        "codingame": {
+            "uuid": "29009cefc62888dbcd96ce938bf4a4855412015",
+            "pseudo": "redaghouzraf",
+            "img": "https://static.codingame.com/servlet/fileservlet?id=95141624952315&format=profile_avatar",
+            "link": "https://www.codingame.com/profile/29009cefc62888dbcd96ce938bf4a4855412015"
+        },
+        "history": [
+            {
+                "scrapdate": "2023-12-23 16:14:27",
+                "pushdate": "2023-12-21 21:21:00",
+                "stability": 100,
+                "league": "BRONZE",
+                "global_rank": 849,
+                "school_rank": 44
+            },
+            {
+                "scrapdate": "2023-12-23 17:10:02",
+                "pushdate": "2023-12-21 21:21:00",
+                "stability": 100,
+                "league": "BRONZE",
+                "global_rank": 866,
+                "school_rank": 44
+            },
+            {
+                "scrapdate": "2023-12-24 11:57:06",
+                "pushdate": "2023-12-21 21:21:00",
+                "stability": 100,
+                "league": "BRONZE",
+                "global_rank": 937,
+                "school_rank": 50
+            },
+            {
+                "scrapdate": "2023-12-25 15:15:40",
+                "pushdate": "2023-12-21 21:21:00",
+                "stability": 100,
+                "league": "BRONZE",
+                "global_rank": 1061,
+                "school_rank": 59
+            },
+            {
+                "scrapdate": "2023-12-25 18:32:35",
+                "pushdate": "2023-12-21 21:21:00",
+                "stability": 100,
+                "league": "BRONZE",
+                "global_rank": 1064,
+                "school_rank": 56
+            },
+            {
+                "scrapdate": "2023-12-26 00:12:17",
+                "pushdate": "2023-12-21 21:21:00",
+                "stability": 100,
+                "league": "BRONZE",
+                "global_rank": 1039,
+                "school_rank": 55
+            },
+            {
+                "scrapdate": "2023-12-27 16:04:33.797143",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1355,
+                "school_rank": 71
+            },
+            {
+                "scrapdate": "2023-12-27 16:11:01.955508",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1356,
+                "school_rank": 71
+            },
+            {
+                "scrapdate": "2023-12-27 16:13:49.783059",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1354,
+                "school_rank": 71
+            },
+            {
+                "scrapdate": "2023-12-27 16:14:31.668175",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1359,
+                "school_rank": 71
+            },
+            {
+                "scrapdate": "2023-12-27 16:17:02.059285",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1356,
+                "school_rank": 71
+            },
+            {
+                "scrapdate": "2023-12-27 20:00:07.089662",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1398,
+                "school_rank": 72
+            },
+            {
+                "scrapdate": "2023-12-27 20:04:34.130866",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1398,
+                "school_rank": 72
+            },
+            {
+                "scrapdate": "2023-12-27 20:11:02.509229",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1400,
+                "school_rank": 72
+            },
+            {
+                "scrapdate": "2023-12-28 00:00:02.686012",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1432,
+                "school_rank": 76
+            },
+            {
+                "scrapdate": "2023-12-28 00:04:34.817581",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1430,
+                "school_rank": 76
+            },
+            {
+                "scrapdate": "2023-12-28 00:11:06.783485",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1431,
+                "school_rank": 74
+            },
+            {
+                "scrapdate": "2023-12-28 04:00:02.722070",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1452,
+                "school_rank": 75
+            },
+            {
+                "scrapdate": "2023-12-28 04:04:35.380838",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1452,
+                "school_rank": 75
+            },
+            {
+                "scrapdate": "2023-12-28 04:11:07.400107",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1454,
+                "school_rank": 76
+            },
+            {
+                "scrapdate": "2023-12-28 08:00:02.424003",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1454,
+                "school_rank": 74
+            },
+            {
+                "scrapdate": "2023-12-28 08:04:36.019603",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1453,
+                "school_rank": 74
+            },
+            {
+                "scrapdate": "2023-12-28 08:11:10.221805",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1454,
+                "school_rank": 74
+            },
+            {
+                "scrapdate": "2023-12-28 12:00:02.432381",
+                "pushdate": "2023-12-28 10:42:17.333000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1482,
+                "school_rank": 77
+            },
+            {
+                "scrapdate": "2023-12-28 12:04:36.383617",
+                "pushdate": "2023-12-28 10:42:17.333000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1482,
+                "school_rank": 77
+            },
+            {
+                "scrapdate": "2023-12-28 12:11:10.832723",
+                "pushdate": "2023-12-28 10:42:17.333000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1483,
+                "school_rank": 76
+            },
+            {
+                "scrapdate": "2023-12-28 16:00:02.493839",
+                "pushdate": "2023-12-28 15:09:04.770000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1515,
+                "school_rank": 76
+            },
+            {
+                "scrapdate": "2023-12-28 16:04:37.149506",
+                "pushdate": "2023-12-28 15:09:04.770000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1515,
+                "school_rank": 76
+            },
+            {
+                "scrapdate": "2023-12-28 20:00:02.522799",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1414,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2023-12-28 20:04:37.467253",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1412,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2023-12-28 20:11:11.849348",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1415,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2023-12-29 00:00:01.845293",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1446,
+                "school_rank": 72
+            },
+            {
+                "scrapdate": "2023-12-29 00:04:38.019911",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1448,
+                "school_rank": 73
+            },
+            {
+                "scrapdate": "2023-12-29 00:11:12.463173",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1448,
+                "school_rank": 72
+            },
+            {
+                "scrapdate": "2023-12-29 12:00:02.216641",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1454,
+                "school_rank": 70
+            },
+            {
+                "scrapdate": "2023-12-29 16:00:02.343588",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1445,
+                "school_rank": 70
+            },
+            {
+                "scrapdate": "2023-12-29 20:00:02.408852",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1477,
+                "school_rank": 70
+            },
+            {
+                "scrapdate": "2023-12-30 00:00:02.056136",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1495,
+                "school_rank": 74
+            },
+            {
+                "scrapdate": "2023-12-30 04:00:02.264404",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1477,
+                "school_rank": 73
+            },
+            {
+                "scrapdate": "2023-12-30 08:00:02.693324",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1479,
+                "school_rank": 75
+            },
+            {
+                "scrapdate": "2023-12-30 12:00:02.268453",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1491,
+                "school_rank": 76
+            },
+            {
+                "scrapdate": "2023-12-30 16:00:02.109212",
+                "pushdate": "2023-12-28 17:32:53.855000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1469,
+                "school_rank": 73
+            },
+            {
+                "scrapdate": "2023-12-30 20:00:01.981816",
+                "pushdate": "2023-12-30 19:42:02.099000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1197,
+                "school_rank": 58
+            },
+            {
+                "scrapdate": "2023-12-31 00:00:02.236378",
+                "pushdate": "2023-12-30 20:52:33.722000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1099,
+                "school_rank": 56
+            },
+            {
+                "scrapdate": "2023-12-31 04:00:02.788415",
+                "pushdate": "2023-12-30 20:52:33.722000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1156,
+                "school_rank": 58
+            },
+            {
+                "scrapdate": "2023-12-31 08:00:01.869166",
+                "pushdate": "2023-12-30 20:52:33.722000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1153,
+                "school_rank": 57
+            },
+            {
+                "scrapdate": "2023-12-31 16:00:02.841214",
+                "pushdate": "2023-12-31 14:34:55.045000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 955,
+                "school_rank": 58
+            },
+            {
+                "scrapdate": "2023-12-31 20:00:02.242264",
+                "pushdate": "2023-12-31 14:34:55.045000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 992,
+                "school_rank": 61
+            },
+            {
+                "scrapdate": "2024-01-01 00:00:02.936328",
+                "pushdate": "2023-12-31 22:32:05.659000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1151,
+                "school_rank": 62
+            },
+            {
+                "scrapdate": "2024-01-01 04:00:02.808872",
+                "pushdate": "2023-12-31 22:32:05.659000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1165,
+                "school_rank": 62
+            },
+            {
+                "scrapdate": "2024-01-01 08:00:02.400173",
+                "pushdate": "2024-01-01 07:40:42.252000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1020,
+                "school_rank": 59
+            },
+            {
+                "scrapdate": "2024-01-01 16:00:02.373953",
+                "pushdate": "2024-01-01 15:26:49.688000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1188,
+                "school_rank": 63
+            },
+            {
+                "scrapdate": "2024-01-01 20:00:02.506685",
+                "pushdate": "2024-01-01 18:24:55.983000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1556,
+                "school_rank": 81
+            },
+            {
+                "scrapdate": "2024-01-02 00:00:01.888624",
+                "pushdate": "2024-01-01 21:26:00.348000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1659,
+                "school_rank": 85
+            },
+            {
+                "scrapdate": "2024-01-02 04:00:02.697402",
+                "pushdate": "2024-01-01 21:26:00.348000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1685,
+                "school_rank": 87
+            },
+            {
+                "scrapdate": "2024-01-02 08:00:01.920658",
+                "pushdate": "2024-01-02 06:55:38.689000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 955,
+                "school_rank": 62
+            },
+            {
+                "scrapdate": "2024-01-02 12:00:02.306662",
+                "pushdate": "2024-01-02 09:48:16.286000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 917,
+                "school_rank": 60
+            },
+            {
+                "scrapdate": "2024-01-02 16:00:02.732152",
+                "pushdate": "2024-01-02 09:48:16.286000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 950,
+                "school_rank": 63
+            },
+            {
+                "scrapdate": "2024-01-03 00:00:03.498026",
+                "pushdate": "2024-01-02 20:35:29.878000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 993,
+                "school_rank": 66
+            },
+            {
+                "scrapdate": "2024-01-03 04:00:02.606631",
+                "pushdate": "2024-01-02 20:35:29.878000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 975,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2024-01-03 08:00:02.269214",
+                "pushdate": "2024-01-02 20:35:29.878000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 987,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2024-01-03 12:00:01.880575",
+                "pushdate": "2024-01-02 20:35:29.878000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 959,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2024-01-03 16:00:01.899396",
+                "pushdate": "2024-01-03 15:26:09.097000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1218,
+                "school_rank": 78
+            },
+            {
+                "scrapdate": "2024-01-03 20:00:02.615912",
+                "pushdate": "2024-01-03 16:21:51.639000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 983,
+                "school_rank": 66
+            },
+            {
+                "scrapdate": "2024-01-04 00:00:02.226067",
+                "pushdate": "2024-01-03 16:21:51.639000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1008,
+                "school_rank": 68
+            },
+            {
+                "scrapdate": "2024-01-04 04:00:02.475808",
+                "pushdate": "2024-01-03 16:21:51.639000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1021,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2024-01-04 08:00:02.065161",
+                "pushdate": "2024-01-03 16:21:51.639000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1050,
+                "school_rank": 68
+            },
+            {
+                "scrapdate": "2024-01-04 12:00:02.216014",
+                "pushdate": "2024-01-03 16:21:51.639000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1023,
+                "school_rank": 66
+            },
+            {
+                "scrapdate": "2024-01-04 16:00:06.999006",
+                "pushdate": "2024-01-03 16:21:51.639000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 972,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2024-01-04 20:00:02.340781",
+                "pushdate": "2024-01-04 19:33:14.161000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1001,
+                "school_rank": 69
+            },
+            {
+                "scrapdate": "2024-01-05 00:00:02.404657",
+                "pushdate": "2024-01-04 20:00:23.540000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 951,
+                "school_rank": 68
+            },
+            {
+                "scrapdate": "2024-01-05 04:00:02.570251",
+                "pushdate": "2024-01-04 20:00:23.540000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 875,
+                "school_rank": 66
+            },
+            {
+                "scrapdate": "2024-01-05 08:00:02.728656",
+                "pushdate": "2024-01-04 20:00:23.540000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 875,
+                "school_rank": 67
+            },
+            {
+                "scrapdate": "2024-01-05 12:00:02.040073",
+                "pushdate": "2024-01-04 20:00:23.540000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 867,
+                "school_rank": 69
+            },
+            {
+                "scrapdate": "2024-01-05 16:00:02.653229",
+                "pushdate": "2024-01-05 14:51:11.009000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 821,
+                "school_rank": 66
+            },
+            {
+                "scrapdate": "2024-01-05 20:00:01.924100",
+                "pushdate": "2024-01-05 14:51:11.009000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 826,
+                "school_rank": 68
+            },
+            {
+                "scrapdate": "2024-01-06 04:00:02.287186",
+                "pushdate": "2024-01-06 01:31:24.208000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 843,
+                "school_rank": 68
+            },
+            {
+                "scrapdate": "2024-01-06 08:00:02.062036",
+                "pushdate": "2024-01-06 01:31:24.208000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 846,
+                "school_rank": 70
+            },
+            {
+                "scrapdate": "2024-01-06 12:00:02.773489",
+                "pushdate": "2024-01-06 11:18:50.562000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 990,
+                "school_rank": 71
+            },
+            {
+                "scrapdate": "2024-01-06 16:00:02.047016",
+                "pushdate": "2024-01-06 13:26:37.965000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 896,
+                "school_rank": 70
+            },
+            {
+                "scrapdate": "2024-01-06 20:00:02.306408",
+                "pushdate": "2024-01-06 13:26:37.965000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 918,
+                "school_rank": 70
+            },
+            {
+                "scrapdate": "2024-01-07 00:00:03.080847",
+                "pushdate": "2024-01-06 13:26:37.965000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 947,
+                "school_rank": 74
+            },
+            {
+                "scrapdate": "2024-01-07 08:00:02.644457",
+                "pushdate": "2024-01-07 04:55:34.002000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 815,
+                "school_rank": 73
+            },
+            {
+                "scrapdate": "2024-01-07 16:00:01.849938",
+                "pushdate": "2024-01-07 15:15:17.589000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 930,
+                "school_rank": 78
+            },
+            {
+                "scrapdate": "2024-01-08 08:00:02.125459",
+                "pushdate": "2024-01-08 07:37:30.062000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 859,
+                "school_rank": 84
+            },
+            {
+                "scrapdate": "2024-01-08 12:00:02.318678",
+                "pushdate": "2024-01-08 07:37:30.062000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 868,
+                "school_rank": 84
+            },
+            {
+                "scrapdate": "2024-01-08 16:00:02.619532",
+                "pushdate": "2024-01-08 07:37:30.062000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 868,
+                "school_rank": 84
+            },
+            {
+                "scrapdate": "2024-01-10 15:16:25.479461",
+                "pushdate": "2024-01-08 07:37:30.062000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 868,
+                "school_rank": 67
+            }
+        ],
+        "final_rank": {
+            "scrapdate": "2024-01-10 15:16:25.479461",
+            "pushdate": "2024-01-08 07:37:30.062000",
+            "stability": 100,
+            "league": "SILVER",
+            "global_rank": 868,
+            "school_rank": 67
+        },
+        "push_per_day": {
+            "first_push": "2023-12-21 00:00:00",
+            "last_push": "2024-01-08 00:00:00",
+            "days": 19,
+            "active_days": 13,
+            "pushes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                4,
+                0,
+                2,
+                2,
+                5,
+                4,
+                2,
+                2,
+                2,
+                3,
+                6,
+                2
+            ]
+        },
+        "league_inception": {
+            "LEGEND": null,
+            "GOLD": null,
+            "SILVER": {
+                "scrapdate": "2023-12-27 16:04:33.797143",
+                "pushdate": "2023-12-26 15:56:29.197000",
+                "stability": 100,
+                "league": "SILVER",
+                "global_rank": 1355,
+                "school_rank": 71
+            },
+            "BRONZE": {
+                "scrapdate": "2023-12-23 16:14:27",
+                "pushdate": "2023-12-21 21:21:00",
+                "stability": 100,
+                "league": "BRONZE",
+                "global_rank": 849,
+                "school_rank": 44
+            },
+            "WOOD 1": null,
+            "WOOD 2": null,
+            "WOOD 3": null
+        }
+    },
+    {
         "db_id": 44,
         "scraptime": "2023-12-27 16:04:33.796989",
         "intra": {
@@ -50550,7 +51330,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 966,
-                "school_rank": 67
+                "school_rank": 68
             }
         ],
         "final_rank": {
@@ -50559,7 +51339,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 966,
-            "school_rank": 67
+            "school_rank": 68
         },
         "push_per_day": {
             "first_push": "2023-12-18 00:00:00",
@@ -51399,7 +52179,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 984,
-                "school_rank": 68
+                "school_rank": 69
             }
         ],
         "final_rank": {
@@ -51408,7 +52188,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 984,
-            "school_rank": 68
+            "school_rank": 69
         },
         "push_per_day": {
             "first_push": "2023-12-20 00:00:00",
@@ -52228,7 +53008,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1026,
-                "school_rank": 69
+                "school_rank": 70
             }
         ],
         "final_rank": {
@@ -52237,7 +53017,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1026,
-            "school_rank": 69
+            "school_rank": 70
         },
         "push_per_day": {
             "first_push": "2023-12-23 00:00:00",
@@ -53077,7 +53857,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1104,
-                "school_rank": 70
+                "school_rank": 71
             }
         ],
         "final_rank": {
@@ -53086,7 +53866,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1104,
-            "school_rank": 70
+            "school_rank": 71
         },
         "push_per_day": {
             "first_push": "2023-12-20 00:00:00",
@@ -53921,7 +54701,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1129,
-                "school_rank": 71
+                "school_rank": 72
             }
         ],
         "final_rank": {
@@ -53930,7 +54710,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1129,
-            "school_rank": 71
+            "school_rank": 72
         },
         "push_per_day": {
             "first_push": "2023-12-23 00:00:00",
@@ -54722,7 +55502,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1221,
-                "school_rank": 72
+                "school_rank": 73
             }
         ],
         "final_rank": {
@@ -54731,7 +55511,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1221,
-            "school_rank": 72
+            "school_rank": 73
         },
         "push_per_day": {
             "first_push": "2023-12-20 00:00:00",
@@ -55559,7 +56339,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1302,
-                "school_rank": 73
+                "school_rank": 74
             }
         ],
         "final_rank": {
@@ -55568,7 +56348,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1302,
-            "school_rank": 73
+            "school_rank": 74
         },
         "push_per_day": {
             "first_push": "2023-12-24 00:00:00",
@@ -56414,7 +57194,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1433,
-                "school_rank": 74
+                "school_rank": 75
             }
         ],
         "final_rank": {
@@ -56423,7 +57203,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1433,
-            "school_rank": 74
+            "school_rank": 75
         },
         "push_per_day": {
             "first_push": "2023-12-19 00:00:00",
@@ -57262,7 +58042,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1501,
-                "school_rank": 75
+                "school_rank": 76
             }
         ],
         "final_rank": {
@@ -57271,7 +58051,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1501,
-            "school_rank": 75
+            "school_rank": 76
         },
         "push_per_day": {
             "first_push": "2023-12-23 00:00:00",
@@ -58106,7 +58886,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1554,
-                "school_rank": 76
+                "school_rank": 77
             }
         ],
         "final_rank": {
@@ -58115,7 +58895,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1554,
-            "school_rank": 76
+            "school_rank": 77
         },
         "push_per_day": {
             "first_push": "2023-12-21 00:00:00",
@@ -58933,7 +59713,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1640,
-                "school_rank": 77
+                "school_rank": 78
             }
         ],
         "final_rank": {
@@ -58942,7 +59722,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1640,
-            "school_rank": 77
+            "school_rank": 78
         },
         "push_per_day": {
             "first_push": "2023-12-25 00:00:00",
@@ -59769,7 +60549,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 1969,
-                "school_rank": 78
+                "school_rank": 79
             }
         ],
         "final_rank": {
@@ -59778,7 +60558,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 1969,
-            "school_rank": 78
+            "school_rank": 79
         },
         "push_per_day": {
             "first_push": "2023-12-19 00:00:00",
@@ -60562,7 +61342,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 2005,
-                "school_rank": 79
+                "school_rank": 80
             }
         ],
         "final_rank": {
@@ -60571,7 +61351,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 2005,
-            "school_rank": 79
+            "school_rank": 80
         },
         "push_per_day": {
             "first_push": "2023-12-26 00:00:00",
@@ -61389,7 +62169,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 2010,
-                "school_rank": 80
+                "school_rank": 81
             }
         ],
         "final_rank": {
@@ -61398,7 +62178,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 2010,
-            "school_rank": 80
+            "school_rank": 81
         },
         "push_per_day": {
             "first_push": "2023-12-22 00:00:00",
@@ -62227,7 +63007,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 2047,
-                "school_rank": 81
+                "school_rank": 82
             }
         ],
         "final_rank": {
@@ -62236,7 +63016,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 2047,
-            "school_rank": 81
+            "school_rank": 82
         },
         "push_per_day": {
             "first_push": "2023-12-20 00:00:00",
@@ -63067,7 +63847,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 2059,
-                "school_rank": 82
+                "school_rank": 83
             }
         ],
         "final_rank": {
@@ -63076,7 +63856,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 2059,
-            "school_rank": 82
+            "school_rank": 83
         },
         "push_per_day": {
             "first_push": "2023-12-19 00:00:00",
@@ -63900,7 +64680,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 2099,
-                "school_rank": 83
+                "school_rank": 84
             }
         ],
         "final_rank": {
@@ -63909,7 +64689,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 2099,
-            "school_rank": 83
+            "school_rank": 84
         },
         "push_per_day": {
             "first_push": "2023-12-23 00:00:00",
@@ -64752,7 +65532,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 2124,
-                "school_rank": 84
+                "school_rank": 85
             }
         ],
         "final_rank": {
@@ -64761,7 +65541,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 2124,
-            "school_rank": 84
+            "school_rank": 85
         },
         "push_per_day": {
             "first_push": "2023-12-21 00:00:00",
@@ -65603,7 +66383,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 2160,
-                "school_rank": 85
+                "school_rank": 86
             }
         ],
         "final_rank": {
@@ -65612,7 +66392,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 2160,
-            "school_rank": 85
+            "school_rank": 86
         },
         "push_per_day": {
             "first_push": "2023-12-20 00:00:00",
@@ -66403,7 +67183,7 @@
                 "stability": 100,
                 "league": "SILVER",
                 "global_rank": 2205,
-                "school_rank": 86
+                "school_rank": 87
             }
         ],
         "final_rank": {
@@ -66412,7 +67192,7 @@
             "stability": 100,
             "league": "SILVER",
             "global_rank": 2205,
-            "school_rank": 86
+            "school_rank": 87
         },
         "push_per_day": {
             "first_push": "2023-12-24 00:00:00",
@@ -67261,7 +68041,7 @@
                 "stability": 100,
                 "league": "BRONZE",
                 "global_rank": 2304,
-                "school_rank": 87
+                "school_rank": 88
             }
         ],
         "final_rank": {
@@ -67270,7 +68050,7 @@
             "stability": 100,
             "league": "BRONZE",
             "global_rank": 2304,
-            "school_rank": 87
+            "school_rank": 88
         },
         "push_per_day": {
             "first_push": "2023-12-20 00:00:00",
@@ -68088,7 +68868,7 @@
                 "stability": 100,
                 "league": "BRONZE",
                 "global_rank": 2429,
-                "school_rank": 88
+                "school_rank": 89
             }
         ],
         "final_rank": {
@@ -68097,7 +68877,7 @@
             "stability": 100,
             "league": "BRONZE",
             "global_rank": 2429,
-            "school_rank": 88
+            "school_rank": 89
         },
         "push_per_day": {
             "first_push": "2023-12-20 00:00:00",
@@ -68283,7 +69063,7 @@
                 "stability": 100,
                 "league": "BRONZE",
                 "global_rank": 2490,
-                "school_rank": 89
+                "school_rank": 90
             }
         ],
         "final_rank": {
@@ -68292,7 +69072,7 @@
             "stability": 100,
             "league": "BRONZE",
             "global_rank": 2490,
-            "school_rank": 89
+            "school_rank": 90
         },
         "push_per_day": {
             "first_push": "2024-01-05 00:00:00",
@@ -69132,7 +69912,7 @@
                 "stability": 100,
                 "league": "BRONZE",
                 "global_rank": 2509,
-                "school_rank": 90
+                "school_rank": 91
             }
         ],
         "final_rank": {
@@ -69141,7 +69921,7 @@
             "stability": 100,
             "league": "BRONZE",
             "global_rank": 2509,
-            "school_rank": 90
+            "school_rank": 91
         },
         "push_per_day": {
             "first_push": "2023-12-19 00:00:00",
@@ -69966,7 +70746,7 @@
                 "stability": 100,
                 "league": "BRONZE",
                 "global_rank": 2607,
-                "school_rank": 91
+                "school_rank": 92
             }
         ],
         "final_rank": {
@@ -69975,7 +70755,7 @@
             "stability": 100,
             "league": "BRONZE",
             "global_rank": 2607,
-            "school_rank": 91
+            "school_rank": 92
         },
         "push_per_day": {
             "first_push": "2023-12-22 00:00:00",
@@ -70753,7 +71533,7 @@
                 "stability": 100,
                 "league": "BRONZE",
                 "global_rank": 2656,
-                "school_rank": 92
+                "school_rank": 93
             }
         ],
         "final_rank": {
@@ -70762,7 +71542,7 @@
             "stability": 100,
             "league": "BRONZE",
             "global_rank": 2656,
-            "school_rank": 92
+            "school_rank": 93
         },
         "push_per_day": {
             "first_push": "2023-12-25 00:00:00",
@@ -71590,7 +72370,7 @@
                 "stability": 100,
                 "league": "BRONZE",
                 "global_rank": 2766,
-                "school_rank": 93
+                "school_rank": 94
             }
         ],
         "final_rank": {
@@ -71599,7 +72379,7 @@
             "stability": 100,
             "league": "BRONZE",
             "global_rank": 2766,
-            "school_rank": 93
+            "school_rank": 94
         },
         "push_per_day": {
             "first_push": "2023-12-22 00:00:00",
@@ -72436,7 +73216,7 @@
                 "stability": 100,
                 "league": "BRONZE",
                 "global_rank": 2854,
-                "school_rank": 94
+                "school_rank": 95
             }
         ],
         "final_rank": {
@@ -72445,7 +73225,7 @@
             "stability": 100,
             "league": "BRONZE",
             "global_rank": 2854,
-            "school_rank": 94
+            "school_rank": 95
         },
         "push_per_day": {
             "first_push": "2023-12-21 00:00:00",
